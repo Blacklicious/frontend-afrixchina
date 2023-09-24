@@ -1,5 +1,5 @@
 'use client';
-import React, { useState, useEffect } from 'react'
+import React, { useState, useEffect, useCallback } from 'react'
 import Link from 'next/link';
 import Image from 'next/image';
 import InfoBar from '@/components/landing/InfoBar';
@@ -8,16 +8,17 @@ const Navbar = () => {
   const [prevScrollPos, setPrevScrollPos] = useState(0);
   const [visible, setVisible] = useState(true);
 
-  const handleScroll = () => {
+  const handleScroll = useCallback(() => {
     const currentScrollPos = window.pageYOffset;
     setVisible((prevScrollPos > currentScrollPos) || currentScrollPos < 10);
     setPrevScrollPos(currentScrollPos);
-  };
+  },[prevScrollPos]);
 
   useEffect(() => {
     window.addEventListener('scroll', handleScroll);
-    return () => window.removeEventListener('scroll', handleScroll);
-  }, [prevScrollPos, visible, handleScroll]);
+    return () => { window.removeEventListener('scroll', handleScroll);
+    };
+  },[ handleScroll]);
 
   return (
     <div>

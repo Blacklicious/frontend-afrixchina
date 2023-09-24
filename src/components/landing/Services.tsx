@@ -14,7 +14,7 @@ const Services: React.FC = () => {
       });
     }, 2000); // every 1 seconds
     return () => clearInterval(interval);
-  }, []);
+  }, [words]);
 
   return (
     <>        
@@ -25,7 +25,7 @@ const Services: React.FC = () => {
                   <div className="av-column-12 mb-8 ">
                     <div className="heading-default wow fadeInUp text-black flex flex-col items-center justify-center text-lg">
                       <div className="ttl">
-                        Ensemble c'est plus rassurant
+                        Ensemble c&apos;est plus rassurant
                       </div>
                       <div className='text-6xl'>
                         - <b>NOS</b>
