@@ -42,7 +42,7 @@ const Marketing = () => {
           </p>
           <div className='flex flex-wrap w-100%'>
             <div className='m-2'>
-              <Card hoverable bordered={false} className="h-100% w-[35vw] border-2" cover={<img src="/afrixchina_logo.png" alt="AfrixChina Logo"  />}>
+              <Card hoverable bordered={false} className="h-100% w-[35vw] border-2" cover={<Image src="/afrixchina_logo.png" alt="AfrixChina Logo"  />}>
                 <h1>
                   WEBSITE ELITE
                 </h1>
@@ -55,7 +55,7 @@ const Marketing = () => {
               </Card>
             </div>
             <div className='m-2'>
-              <Card hoverable bordered={false} className="h-100% w-[35vw] border-2" cover={<img src="/afrixchina_logo.png" alt="AfrixChina Logo"  />}>
+              <Card hoverable bordered={false} className="h-100% w-[35vw] border-2" cover={<Image src="/afrixchina_logo.png" alt="AfrixChina Logo"  />}>
                 <h1>
                   WEBSITE BRANDING EVO
                 </h1>
@@ -70,7 +70,7 @@ const Marketing = () => {
               </Card>
             </div>
             <div className='m-2'>
-              <Card hoverable bordered={false} className="h-100% w-[35vw] border-2" cover={<img src="/afrixchina_logo.png" alt="AfrixChina Logo"  />}>
+              <Card hoverable bordered={false} className="h-100% w-[35vw] border-2" cover={<Image src="/afrixchina_logo.png" alt="AfrixChina Logo"  />}>
                 <h1>
                 PACK SEO FIRST
                 </h1>
@@ -87,7 +87,7 @@ const Marketing = () => {
               </Card>
             </div>
             <div className='m-2'>
-              <Card hoverable bordered={false} className="h-100% w-[35vw] border-2" cover={<img src="/afrixchina_logo.png" alt="AfrixChina Logo"  />}>
+              <Card hoverable bordered={false} className="h-100% w-[35vw] border-2" cover={<Image src="/afrixchina_logo.png" alt="AfrixChina Logo"  />}>
                 <h1>
                   PACK SEO GOLD PLUS
                 </h1>
