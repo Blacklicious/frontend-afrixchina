@@ -1,5 +1,5 @@
 'use client'
-import { Card, Col, Row } from 'antd';
+import { Card, Col, Row } from 'antd&apos;;
 import React, { useState, useEffect } from 'react'
 
 const Services: React.FC = () => {
@@ -52,7 +52,7 @@ const Services: React.FC = () => {
                   <Col span={8}>
                     <Card hoverable  bordered={false} >
                       <h5 className="text-2xl mb-4"><a href="https://businessinchina.fr/import-export/">Creation Entrprise</a></h5>
-                      <p>Une de nos spécialités est aussi d'offrir le service de création d'entreprise en Chine avec le service de comptabilité .</p>
+                      <p>Une de nos spécialités est aussi d&apos;offrir le service de création d&apos;entreprise en Chine avec le service de comptabilité .</p>
                       <a href="https://businessinchina.fr/import-export/"><i className="fa fa-long-arrow-right"></i></a>
                     </Card>
                   </Col>
@@ -122,7 +122,7 @@ const Services: React.FC = () => {
                       <h5 className="text-xl mb-4"><a href="https://businessinchina.fr/import-export/"><b>CREATION ENTREPRISE</b></a></h5>
                       <p>
                         <b>
-                          Nous vous accompagnons pour vos projets de creation d'entreprise en Chine.
+                          Nous vous accompagnons pour vos projets de creation d&apos;entreprise en Chine.
                         </b>
                       </p>
                       <a href="https://businessinchina.fr/import-export/"><i className="fa fa-long-arrow-right"></i></a>
@@ -133,7 +133,7 @@ const Services: React.FC = () => {
                       <h5 className="text-xl mb-4"><a href="https://businessinchina.fr/import-export/"><b>INVITATION CHINE</b></a></h5>
                       <p>
                         <b>
-                          Nous vous offrons la lettre d'invitation Professionnelle  pour vos démarches de visite en Chine. 
+                          Nous vous offrons la lettre d&apos;invitation Professionnelle  pour vos démarches de visite en Chine. 
                         </b>
                       </p>
                       <a href="https://businessinchina.fr/import-export/"><i className="fa fa-long-arrow-right"></i></a>
@@ -155,7 +155,7 @@ const Services: React.FC = () => {
                       <h5 className="text-xl mb-4"><a href="https://businessinchina.fr/import-export/"><b>COOPERATION</b></a></h5>
                       <p>
                         <b>
-                          Nous offrons la possibilité à nos potentiels clients de nous representer dans leur pays d'origine. 
+                          Nous offrons la possibilité à nos potentiels clients de nous representer dans leur pays d&apos;origine. 
                         </b>
                       </p>
                       <a href="https://businessinchina.fr/import-export/"><i className="fa fa-long-arrow-right"></i></a>

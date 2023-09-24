@@ -50,7 +50,7 @@ const Home: React.FC = () => {
                   </h1>
                 </div>
                 <div className='text-whihte text-lg'>
-                  <p>Leader du Sourcing entre la chine et L'afrique</p>
+                  <p>Leader du Sourcing entre la chine et L&apos;afrique</p>
                 </div>
               </div>
             </div>
@@ -64,7 +64,7 @@ const Home: React.FC = () => {
                     </h1>
                   </div>
                   <div className='text-whihte text-lg'>
-                    <p>Leader du Sourcing entre la chine et L'afrique</p>
+                    <p>L&apos;import Export simplifiée entre la chine et L&apos;afrique</p>
                   </div>
               </div>
             </div>  
@@ -78,7 +78,7 @@ const Home: React.FC = () => {
                   </h1>
                 </div>
                 <div className='text-whihte text-lg'>
-                  <p>Leader du Sourcing entre la chine et L'afrique</p>
+                  <p>Un suivie du debut a la vente de Votre marque</p>
                 </div>
               </div>
             </div>
