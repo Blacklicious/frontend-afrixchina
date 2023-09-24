@@ -25,3 +25,11 @@ body {
     )
     rgb(var(--background-start-rgb));
 }
+.fade-effect {
+  opacity: 0;
+  transition: opacity 1s ease-in-out;
+}
+
+.fade-effect.show {
+  opacity: 1;
+}
