@@ -4,7 +4,7 @@ import Navbar from '@/components/Navbar';
 import InfoBar from '@/components/landing/InfoBar';
 import Image from 'next/image';
 import Contacts from '@/components/landing/Contacts';
-import Footer from '@/components/footer';
+import Footer from '@/components/Footer';
 
 
 

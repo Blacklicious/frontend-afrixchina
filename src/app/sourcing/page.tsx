@@ -4,7 +4,7 @@ import React from 'react'
 import { Card, Col, Row } from 'antd';
 import Image from 'next/image';
 import Contacts from '@/components/landing/Contacts';
-import Footer from '@/components/footer';
+import Footer from '@/components/Footer';
 
 const Sourcing = () => {
   return (

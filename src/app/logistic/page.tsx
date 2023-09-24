@@ -2,7 +2,7 @@ import React from 'react'
 import Navbar from '@/components/Navbar';
 import InfoBar from '@/components/landing/InfoBar';
 import Contacts from '@/components/landing/Contacts';
-import Footer from '@/components/footer';
+import Footer from '@/components/Footer';
 
 const Logistic = () => {
   const sections = [

@@ -5,7 +5,7 @@ import Navbar from '@/components/Navbar';
 import Services from '@/components/landing/Services';
 import Contacts from '@/components/landing/Contacts';
 import InfoBar from '@/components/landing/InfoBar';
-import Footer from '@/components/footer';
+import Footer from '@/components/Footer';
 
 const contentStyle1: React.CSSProperties = {
   height: '70vh',
