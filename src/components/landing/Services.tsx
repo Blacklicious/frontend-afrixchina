@@ -1,5 +1,5 @@
 'use client'
-import { Card, Col, Row } from 'antd&apos;;
+import { Card, Col, Row } from 'antd';
 import React, { useState, useEffect } from 'react'
 
 const Services: React.FC = () => {

@@ -3,7 +3,7 @@ import { Card, Col, Row, } from 'antd';
 import Navbar from '@/components/Navbar';
 import InfoBar from '@/components/landing/InfoBar';
 import Image from 'next/image';
-import Contacts from '@/components/landing/Contacts&apos;;
+import Contacts from '@/components/landing/Contacts';
 import Footer from '@/components/Footer';
 
 
