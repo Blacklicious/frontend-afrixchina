@@ -80,7 +80,7 @@ const Services: React.FC = () => {
               <div className="heading-default wow fadeInUp text-white flex flex-col items-center justify-center text-lg">
                 <div className='text-4xl md:text-6xl flex flex-col  md:flex-row  text-center items-center justify-center'>
                  <b> - Details de nos </b>
-                  <button className="av-heading animate-7 bg-white w-[200px] m-2 rounded-md">
+                  <button className="av-heading animate-7 bg-white w-[200px] md:w-[400px] m-2 rounded-md">
                     <span className="av-text-wrapper text-red-600"><b className="{`fade-effect ${isVisible ? 'show' : ''}">{currentWord}</b></span>
                   </button>
                 </div>
