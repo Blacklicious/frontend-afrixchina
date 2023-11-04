@@ -1,4 +1,4 @@
-import Navbar from '@/components/Navbar'
+import Navbar from '@/components/Navbar/Navbar'
 import InfoBar from '@/components/landing/InfoBar'
 import React from 'react'
 import { Card, Col, Row } from 'antd';
@@ -9,12 +9,11 @@ import Footer from '@/components/Footer';
 const Sourcing = () => {
   return (
     <div className='bg-black'>
-      <InfoBar/>
       < Navbar />
-      <div className='bg-white p-10'>{/* YouTube Video */}
+      <div className='bg-white p-2 md:p-10 mt-1'>{/* YouTube Video */}
         <div className="video-container flex justify-center items-center">
           <iframe 
-            className='w-[80vw] h-[70vh]'
+            className='w-[100%] h-[70vh]'
             src="https://www.youtube.com/embed/-DqvFf6Riio" 
             title="YouTube video" 
             frameBorder="0" 
@@ -22,8 +21,7 @@ const Sourcing = () => {
             allowFullScreen>
           </iframe>
         </div>
-        <div className='text-black text-xl px-[10%] py-20'>
-          <h1>Sourcing</h1>
+        <div className='text-black text-lg px-4 md:px-[10%] py-10'>
           <h1>
             Le Sourcing est là pour vous aider à trouver les bons produits au meilleur prix,
              mais pas seulement ! Avec Afrixchina nous allons bien plus loin qu&apos;un simple sourcing, 
@@ -44,7 +42,7 @@ const Sourcing = () => {
             </Card>
           </div>
         </div>
-        <div className='text-black text-xl px-[10%] py-20'>
+        <div className='text-black text-lg px-4 md:px-[10%] py-10'>
             <h1>
             Afrixchina et ses agents de terrain vont vérifier : l historique du fournisseur, sa réputation,
              son volume de travail en cours, et aujourd&apos;hui encore plus avec le coronavirus sa capacité à produire 
@@ -71,7 +69,7 @@ const Sourcing = () => {
             </Card>
           </div>
         </div>
-        <div className='text-black text-xl px-[10%] py-20'>
+        <div className='text-black text-lg px-4 md:px-[10%] py-10'>
             <h1>
               En résumé Afrixchina et son fondateur l&apos;Entrepreneur Cheick de Paris, ayant plus de 15 ans 
               d&apos;expérience dans l&apos;import-export sont là pour vous proposer un service complet, 

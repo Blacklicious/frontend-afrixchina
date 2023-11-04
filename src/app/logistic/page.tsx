@@ -1,5 +1,5 @@
 import React from 'react'
-import Navbar from '@/components/Navbar';
+import Navbar from '@/components/Navbar/Navbar';
 import InfoBar from '@/components/landing/InfoBar';
 import Contacts from '@/components/landing/Contacts';
 import Footer from '@/components/Footer';
@@ -8,12 +8,11 @@ const Logistic = () => {
  
   return (
     <div>
-      <InfoBar />
       < Navbar />
-      <div className='bg-white p-10'>{/* YouTube Video */}
+      <div className='bg-white p-2 md:p-10'>{/* YouTube Video */}
         <div className="video-container flex justify-center items-center">
           <iframe 
-            className='w-[80vw] h-[70vh]'
+            className='w-[100%] h-[70vh]'
             src="https://www.youtube.com/embed/Pl2V2BcpPlU?"
             title="YouTube video" 
             frameBorder="0" 
@@ -23,10 +22,10 @@ const Logistic = () => {
         </div>
       </div>
       <div className="container mx-auto p-6">
-        <h1 className="text-3xl font-bold mb-4">I- Service Accompagnement</h1>
+        <h1 className="text-3xl font-bold mb-2">I- Service Accompagnement</h1>
         <p>Nous accompagnons les entreprises ou des particuliers de plusieurs manière :</p>
         <section className="my-8 flex flex-wrap">
-            <div className="w-full md:w-1/2 p-8 flex flex-col justify-center">
+            <div className="w-[100%] md:w-1/2 p-2 md:p-8 flex flex-col justify-center">
               <h2 className="text-2xl font-semibold mb-3">Faire un conteneur 20 pieds ou 40 pieds</h2>
               <p>
                 Nous vous assistons sur tous vos projets de conteneurs en chine. Voici comment nous approcher :
@@ -54,7 +53,7 @@ const Logistic = () => {
             <div className="w-full md:w-1/2 ">
               <video src="/14.mp4" className="w-full h-full object-cover" autoPlay muted loop ></video>
             </div>
-            <div className="w-full md:w-1/2 p-8 flex flex-col justify-center">
+            <div className="w-full md:w-1/2 p-2 md:p-8 flex flex-col justify-center">
               <h2 className="text-2xl font-semibold mb-3">Faire l&apos;Inspection de marchandise en chine</h2>
               <p>
                 Faites valider vos commandes en Chine grâce à notre service d&apos;inspection. Voici comment nous ca marche :
@@ -66,7 +65,7 @@ const Logistic = () => {
             </div>
           </section>
           <section className="my-8 flex flex-wrap">
-            <div className="w-full md:w-1/2 p-8 flex flex-col justify-center">
+            <div className="w-full md:w-1/2 p-2 md:p-8 flex flex-col justify-center">
               <h2 className="text-2xl font-semibold mb-3">Rassemblez des petits colis</h2>
               <p>
                 Nous offrons ce service pour soulager et rassurer tous nos clients qui peuvent passer leurs commandes en Chine 

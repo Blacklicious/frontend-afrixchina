@@ -1,6 +1,6 @@
 import React from 'react'
 import { Card, Col, Row, } from 'antd';
-import Navbar from '@/components/Navbar';
+import Navbar from '@/components/Navbar/Navbar';
 import InfoBar from '@/components/landing/InfoBar';
 import Image from 'next/image';
 import Contacts from '@/components/landing/Contacts';
@@ -13,12 +13,11 @@ const Marketing = () => {
   const { Meta } = Card;
   return (
     <div>
-      <InfoBar />
       < Navbar />
-      <div className='bg-white p-10'>{/* YouTube Video */}
+      <div className='bg-white p-2 md:p-10'>{/* YouTube Video */}
         <div className="video-container flex justify-center items-center">
           <iframe 
-            className='w-[80vw] h-[70vh]'
+            className='w-[100%] h-[70vh]'
             src="https://www.youtube.com/embed/-DqvFf6Riio" 
             title="YouTube video" 
             frameBorder="0" 
@@ -26,8 +25,7 @@ const Marketing = () => {
             allowFullScreen>
           </iframe>
         </div>
-        <div className='text-black text-xl px-[10%] py-20'>
-          <h1>Marketing</h1>
+        <div className='text-black text-lg text-center p-2 md:px-[10%] py-10'>
           <p>
             Une plateforme exceptionnelle, Afrixchina est un service d&apos;automatisation et de solutions informatiques intégrales 
             qui va bien au-delà de vos attentes! Nous offrons une gamme complète de services inclus : analyse et stratégie 
@@ -40,12 +38,12 @@ const Marketing = () => {
             données avec Google Analytics, et de stratégies publicitaires sur Google ADS et Facebook ADS. Tout ceci afin de vous
             fournir une solution clé en main qui apporte de la valeur ajoutée à votre entreprise.
           </p>
-          <div className='flex flex-wrap w-100%'>
-            <div className='m-2'>
-              <div className='flex flex-wrap justify-between w-full'>
-                <div className='m-2 flex-none w-[35vw]'>
+          <div className='flex flex-wrap mt-10'>
+            <div className='w-[100%] md:w-[48%] m-2'>
+              <div className=' justify-between '>
+                <div className='m-2 flex-none'>
                   <Card hoverable bordered={false} className="h-100% border-2">{/* Add items-center for vertical alignment */}
-                    <div className="relative h-[300px] w-[100%] flex-none"> {/* Set the size of the parent and make it not grow or shrink */}
+                    <div className="relative h-[300px] flex-none"> {/* Set the size of the parent and make it not grow or shrink */}
                       <Image 
                         layout="fill"
                         objectFit="cover" // Adjust as needed
@@ -68,9 +66,9 @@ const Marketing = () => {
                 </div>
               </div>
             </div>  
-            <div className='m-2'>
+            <div className='w-[100%] md:w-[48%] m-2'>
               <div className='flex flex-wrap justify-between w-full'>
-                <div className='m-2 flex-none w-[35vw]'>
+                <div className='m-2'>
                   <Card hoverable bordered={false} className="h-100% border-2">{/* Add items-center for vertical alignment */}
                     <div className="relative h-[300px] w-[100%] flex-none"> {/* Set the size of the parent and make it not grow or shrink */}
                       <Image 
@@ -97,11 +95,11 @@ const Marketing = () => {
                 </div>
               </div>
             </div>
-            <div className='m-2'>
-              <div className='flex flex-wrap justify-between w-full'>
-                <div className='m-2 flex-none w-[35vw]'>
+            <div className='w-[100%] md:w-[48%] m-2'>
+              <div className='flex flex-wrap justify-between'>
+                <div className=''>
                   <Card hoverable bordered={false} className="h-100% border-2">{/* Add items-center for vertical alignment */}
-                    <div className="relative h-[300px] w-[100%] flex-none"> {/* Set the size of the parent and make it not grow or shrink */}
+                    <div className="relative h-[300px] flex-none"> {/* Set the size of the parent and make it not grow or shrink */}
                       <Image 
                         layout="fill"
                         objectFit="cover" // Adjust as needed
@@ -128,11 +126,11 @@ const Marketing = () => {
                 </div>
               </div>
             </div>  
-            <div className='m-2'>
-              <div className='flex flex-wrap justify-between w-full'>
-                <div className='m-2 flex-none w-[35vw]'>
+            <div className='w-[100%] md:w-[48%] m-2'>
+              <div className='flex flex-wrap '>
+                <div className=''>
                   <Card hoverable bordered={false} className="h-100% border-2">{/* Add items-center for vertical alignment */}
-                    <div className="relative h-[300px] w-[100%] flex-none"> {/* Set the size of the parent and make it not grow or shrink */}
+                    <div className="relative h-[300px] flex-none"> {/* Set the size of the parent and make it not grow or shrink */}
                       <Image 
                         layout="fill"
                         objectFit="cover" // Adjust as needed
