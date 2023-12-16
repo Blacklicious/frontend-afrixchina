@@ -1,6 +1,7 @@
 import React from 'react'
 import Image from 'next/image';
 import InfoBar from '@/components/landing/InfoBar';
+import FooterSocial from '../FooterSocial';
 
 const Contacts = () => {
   return (
@@ -43,6 +44,7 @@ const Contacts = () => {
           </button>
         </form>
       </div>
+      < FooterSocial />
     </div>
   );
 }

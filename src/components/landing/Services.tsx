@@ -49,7 +49,7 @@ const Services: React.FC = () => {
                   </div>
                   
                   <div className='w-[90vw] md:w-[30vw] bg-gray-200/75 m-4 p-4 text-black font-bold rounded shadow-lg' >
-                    <h5 className="text-2xl mb-4 text-center"><a href="https://businessinchina.fr/import-export/">Creation Entrprise</a></h5>
+                    <h5 className="text-2xl mb-4 text-center"><a href="https://businessinchina.fr/import-export/">Creation Entreprise</a></h5>
                     <p className='text-center'>Une de nos spécialités est aussi d&apos;offrir le service de création d&apos;entreprise en Chine avec le service de comptabilité .</p>
                     <a href="https://businessinchina.fr/import-export/"><i className="fa fa-long-arrow-right"></i></a>
                   </div>
